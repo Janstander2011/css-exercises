@@ -30,7 +30,7 @@ input {
 .header {
   display:flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between ;
 }
 .content {
   display:flex;
@@ -49,8 +49,10 @@ input {
 .left-links {
   display:flex;
   list-style-type: none;
-  justify-content: flex-start;
+  /* align-items: flex-start; */
+  justify-content: center;
   gap: 10px;
+  margin-left: 10px;
 }
 
 .right-links {
@@ -58,19 +60,26 @@ input {
   list-style-type: none;
   justify-content: flex-end;
   gap: 10px;
+  margin-right: 10px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-content: flex-start;
   height: 100vh;
+  margin: 0;
 }
 
 a {
   font-size: 16px;
   color: grey;
-  padding: 8px;
+  padding: 0px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+ul {
+  padding-inline-start:0px;
 }
