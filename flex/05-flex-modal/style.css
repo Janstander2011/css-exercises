@@ -57,7 +57,7 @@ body {
   height: 24px;
   width: 24px;
   display: flex;
-  align-self: flex-end;
+  align-items: flex-start;
   justify-content: center;
   margin: 20px;
   flex: 1 0 auto;
